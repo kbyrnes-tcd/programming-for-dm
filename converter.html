@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <h1>Currency Converter</h1>
+
+<!-- Input for amount -->
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <br><br>
+
+<!-- Select source currency -->
+    <label for="source">From:</label>
+    <select id="source">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+    </select>
+
+    <br><br>
+
+ <!-- Select target currency -->
+    <label for="target">To:</label>
+    <select id="target">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+    </select>
+
+    <br><br>
+
+ <!-- Button to convert -->
+    <button id="convertBtn">Convert</button>
+
+    <p id="result"></p>
+
+
+ <!-- JavaScript -->
+<script>
+let rate = 0.85;
+
+function convert(amount, sourceCurrency, targetCurrency) {
+    // Validate the amount
+    if (typeof amount !== 'number' || amount < 0){
+        return "Invalid amount. Please enter a positive number.";
+    }
+
+    if (sourceCurrency === "USD" && targetCurrency === "EUR") {
+        return amount * rate;
+    } else if (sourceCurrency === "EUR" && targetCurrency === "USD") {
+        return amount / rate;
+    } else {
+        return "Conversion not supported.";
+    }
+}
+
+    // Breakdown the following
+        document.getElementById('convertBtn').addEventListener('click', function() {
+            const amount = parseFloat(document.getElementById('amount').value);
+            const sourceCurrency = document.getElementById('source').value;
+            const targetCurrency = document.getElementById('target').value;
+
+            const result = convert(amount, sourceCurrency, targetCurrency);
+            document.getElementById('result').innerText = `Result: ${result}`;
+        });
+    </script>
+</body>
+</html> 
