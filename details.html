@@ -1,0 +1,99 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Project Title</title>
+        <script src="portfolio.js"></script>
+    </head>
+    <body>   
+        <div id="project-title"></div>   
+        <div id="project-image"></div>   
+        <div id="project-description"></div>
+    </body>
+</html>
+-->
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayla Byrnes Beckett Portfolio Details</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="portfolio.js" defer></script> <!--load project data-->
+    <script src="script.js" defer></script> <!--load hamburger amd other JS-->
+</head>
+
+<body class="portfolioPage">
+    <!--nav bar section-->
+    <nav class="navParent">
+        <div class="logo">
+            <a href="home.html">
+            <img src="assets/beckett-white-2.png" alt="Logo of beehive with the letter B inside" width="40">
+            </a>
+            <h1>kayla beckett</h1>
+        </div>
+        
+        <div class="topnav" id="myTopnav">
+            <a href="home.html">home</a>
+            <a href="portfolio.html" class="active">portfolio</a>
+            <a href="about.html">about</a>
+            <!--add hamburger here-->
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+        </div>
+    </nav>
+
+
+    <!-- MAIN PROJECT CONTENT -->
+    <main class="projectContent">
+        <h2 id="project-title">Loading...</h2>
+
+        <p id="project-description"></p>
+        
+        <div id="project-image" class="projectImages">
+            <!--adding placeholder to fix flashing between photos as load in-->           
+            <img id="slideshow-img" class="slideshow-img" src="" alt="">
+            <button class="prev-btn">❮</button>
+            <button class="next-btn">❯</button>
+        </div>
+        
+        <!-- bottom pre/next nav buttons -->
+        <div class="projectNav">
+            <!--<a href="portfolio.html" class="button">Back to Portfolio</a>-->
+            <a id="prev-btn" class="button">Previous</a>
+            <a id="next-btn" class="button">Next</a>
+        </div>
+    </main>
+    
+    
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:kbyrnes@tcd.ie" class="social-link" title="Email">
+        <i class="fas fa-envelope"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/kaylabyrnes/?hl=en" target="_blank" class="social-link" title="Instagram">
+        <i class="fab fa-instagram"></i>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/kayla-byrnes-687996160/" target="_blank" class="social-link" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+        </a>
+    </footer>    
+    
+    <!--script for hamburger-->
+     <script>
+      function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        x.classList.toggle("responsive");
+      }
+    </script>
+</body>
+</html> 
+
+
+
+
+
+

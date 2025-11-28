@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayla Byrnes Beckett Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <!--NEW JAVASCRIPT HERE-->
+    <script src="portfolio.js"></script>
+</head>
+
+<body class="portfolioPage">
+    <!--nav bar section-->
+    <nav class="navParent">
+        <div class="logo">
+            <a href="home.html">
+            <img src="assets/beckett-white-2.png" alt="Logo of beehive with the letter B inside" width="40">
+            </a>
+            <h1>kayla beckett</h1>
+        </div>
+        
+        <div class="topnav" id="myTopnav">
+            <a href="home.html">home</a>
+            <a href="portfolio.html" class="active">portfolio</a>
+            <a href="about.html">about</a>
+            <!--add hamburger here-->
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+        </div>
+    </nav>
+    
+<main class="portfolioContent">
+    <!--3D models section-->
+    <section class="portfolioSection" id="section3D">
+        <h2><span class="portfolioHighlight-mint">3D</span> models</h2> 
+        
+        <div class="gridContainer">
+            <div class="gridItem">
+                <!--add a tag, NOTE: EDIT CSS for grid layout so image a tag gets the styling-->
+                <!--NOTE: switch ahref of each to their corresponding details.html query string-->
+                <a href="details.html?id=1">
+                <img src="thumbnails/3d-headphones1.png" alt="3D render of headphones">
+                <h3>Texture Studies</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=2">
+                <img src="thumbnails/3d-shoes1.png" alt="3D render of shiny basketball shoes with a vibrant pink background">
+                <h3>Lighting Studies</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=3">
+                <img src="thumbnails/3d-city1.png" alt="3D render of cyber city building with neon signs">
+                <h3>Cyber City Renders</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=4">
+                <img src="thumbnails/3d-gameboy1.png" alt="3D render of Nintendo Game Boy">
+                <h3>Nintendo Game Boy Renders</h3>
+                </a>
+            </div>
+            
+            <div class="gridItem">
+                <a href="details.html?id=5">
+                <img src="thumbnails/3d-misc1.png" alt="3D render of stylized tea set">
+                <h3>Miscellaneous Renders</h3>
+                </a>
+            </div>
+            
+            <div class="gridItem">
+                <a href="details.html?id=6">
+                <img src="thumbnails/3d-tech1.png" alt="3D render of Apple watch next to polaroid pictures on a table">
+                <h3>Tech Renders</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!--UX/UI section-->
+    <section class="portfolioSection" id="sectionUXUI">
+        <h2><span class="portfolioHighlight-yellow">UX/UI</span> projects</h2>
+        <div class="gridContainer">
+            <div class="gridItem">
+                <a href="details.html?id=7">
+                <img src="thumbnails/ux-plurri.png" alt="Image of log in interface on laptop screen">
+                <h3>Plurri Lab</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=8">
+                <img src="thumbnails/ux-pd.png" alt="Image of home portal interface on laptop screen">
+                <h3>Position Description Generator</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=9">
+                <img src="thumbnails/ux-bs.png" alt="Image of Operational Planning Toolkit home screen on laptop mockup">
+                <h3>Operational Planning Toolkit</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=10">
+                <img src="thumbnails/ux-gbn.png" alt="Image of Global Business Navigator interface">
+                <h3>Global Business Navigator</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!--illustration section-->
+    <section class="portfolioSection" id="sectionIllustrations">
+        <h2><span class="portfolioHighlight-lav">Illustrations</span></h2>
+        <div class="gridContainer">
+            <div class="gridItem">
+                <a href="details.html?id=11">
+                <img src="thumbnails/ill-crow1.png" alt="Digital drawing of crow perched in a cyber city surrounded by  crow study drawings">
+                <h3>Concept Art</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=12">
+                <img src="thumbnails/ill-anat1.png" alt="Digital drawing of a human anatomical study">
+                <h3>Anatomy Studies</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=13">
+                <img src="thumbnails/ill-anim1.png" alt="Digital drawing study of great horned owl">
+                <h3>Animal Studies</h3>
+                </a>
+            </div>
+
+            <div class="gridItem">
+                <a href="details.html?id=14">
+                <img src="thumbnails/ill-swirl1.png" alt="Stylized drawing of highland cow on a swirly background">
+                <h3>Miscellaneous Illustrations</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+    
+    <!--footer section-->
+    <div class="socials">
+        <div class="email"></div>
+        <div class="insta"></div>
+        <div class="linkedin"></div>
+    </div>
+    
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:kbyrnes@tcd.ie" class="social-link" title="Email">
+        <i class="fas fa-envelope"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/kaylabyrnes/?hl=en" target="_blank" class="social-link" title="Instagram">
+        <i class="fab fa-instagram"></i>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/kayla-byrnes-687996160/" target="_blank" class="social-link" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+        </a>
+    </footer>    
+    
+    <!--script for hamburger-->
+     <script>
+      function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        x.classList.toggle("responsive");
+      }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayla Byrnes Beckett Portfolio - About</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="aboutPage">
+    <!--nav bar section-->
+    <nav class="navParent">
+        <div class="logo">
+            <a href="home.html">
+            <img src="assets/beckett-white-2.png" alt="Logo of beehive with the letter B inside" width="40">
+            </a>
+            <h1>kayla beckett</h1>
+        </div>
+        
+        <div class="topnav" id="myTopnav">
+            <a href="home.html">home</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="about.html" class="active">about</a>
+            <!-- add hamburger here -->
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+        </div>
+    </nav>
+    
+    <!--about content section-->
+    <div class="aboutContent">
+        <div class="aboutImage">
+            <img src="assets/aboutpic.png" alt="Photo of Kayla and dog at the beach">
+        </div>
+
+        <div class="aboutText">
+            <h2>About <span class="highlight-about">me</span></h2>
+            <p>I’m Kayla, a Senior Product Designer with a love for digital media and game design. I grew up playing games before my time, like Metroid on the Atari. When I was thirteen, I saved enough money to buy my own PS3, and from there my obsession with game art, digital media, and storytelling really took off.</p>
+            <p>By day, I work at Microsoft designing user-friendly apps and AI tools, building sleek interfaces, and creating storyboards to connect with customers.</p>
+            <p>I’m focused on merging two worlds — using my UI/UX skills while keeping my creative edge sharp with game art, illustrating, and storytelling.</p>
+        </div>
+    </div>
+
+    
+
+    
+    <!--footer section-->
+    <div class="socials">
+        <div class="email"></div>
+        <div class="insta"></div>
+        <div class="linkedin"></div>
+    </div>
+    
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:kbyrnes@tcd.ie" class="social-link" title="Email">
+        <i class="fas fa-envelope"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/kaylabyrnes/?hl=en" target="_blank" class="social-link" title="Instagram">
+        <i class="fab fa-instagram"></i>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/kayla-byrnes-687996160/" target="_blank" class="social-link" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+        </a>
+    </footer>    
+    
+    <!--script for hamburger-->
+     <script>
+      function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        x.classList.toggle("responsive");
+      }
+    </script>
+
+</body>
+</html> 

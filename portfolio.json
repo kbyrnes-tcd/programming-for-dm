@@ -1,0 +1,102 @@
+[
+      {
+        "id":1,
+        "category":"3D projects",
+        "title": "Texture Studies",
+        "image": ["thumbnails/3d-headphones1.png", "dynamic/id1/headphones2.png"],
+        "description":"This is a study focused on realistic material and surface detailing using 3D texture mapping in Cinema 4D."
+      },
+      {
+        "id":2,
+        "category":"3D projects",
+        "title": "Lighting Studies",
+        "image": ["dynamic/id2/shoes1.png", "dynamic/id2/shoes2.png", "dynamic/id2/shoes3.png", "dynamic/id2/shoes4.png"],
+        "description":"This is a study exploring different lighting techniques in Cinema 4D to enhance mood, depth, and visual realism."
+      },
+      {
+        "id":3,
+        "category":"3D projects",
+        "title": "Cyber City Renders",
+        "image": ["dynamic/id3/city1.png", "dynamic/id3/city2.png", "dynamic/id3/city3.png"],
+        "description":"Futuristic cityscapes inspired by cyberpunk aesthetics."
+      },
+      {
+        "id":4,
+        "category":"3D projects",
+        "title": "Nintendo Game Boy Renders",
+        "image": ["dynamic/id4/gameboy1.png", "dynamic/id4/gameboy2.png", "dynamic/id4/gameboy3.png", "dynamic/id4/gameboy4.png"],
+        "description":"3D recreation of a classic handheld gaming device modeled, textured, and rendered from scratch using volume builder in Cinema 4D."
+      },
+      {
+        "id":5,
+        "category":"3D projects",
+        "title": "Miscellaneous Renders",
+        "image": ["dynamic/id5/misc1.png", "dynamic/id5/misc2.png", "dynamic/id5/misc3.png", "dynamic/id5/misc4.png"],
+        "description":"A collection of experimental 3D pieces exploring form, material, and composition."
+      },
+      {
+        "id":6,
+        "category":"3D projects",
+        "title": "Tech Renders",
+        "image": ["dynamic/id6/tech1.png", "dynamic/id6/tech2.png", "dynamic/id6/tech3.png"],
+        "description":"Hard-surface modeling practice with various camera angles in Cinema 4D."
+      },
+      {   
+        "id":7,
+        "category":"UX/UI projects",
+        "title": "Plurri Lab",
+        "image": ["dynamic/id7/plurri1.png", "dynamic/id7/plurri2.png", "dynamic/id7/plurri3.png", "dynamic/id7/plurri4.png", "dynamic/id7/plurri5.png", "dynamic/id7/plurri6.png", "dynamic/id7/plurri7.png", "dynamic/id7/plurri8.png", "dynamic/id7/plurri9.png", "dynamic/id7/plurri10.png"],
+        "description":"End-to-end UX/UI design for a science-focused platform for the Advanced Research Projects Agency for Health. The design focuses on user flows, interface design, and visual identity, and was awarded a Microsoft Civilian Honors Award for its innovation and design."
+      },
+      {
+        "id":8,
+        "category":"UX/UI projects",
+        "title": "Position Description Generator",
+        "image": ["dynamic/id8/pd1.png", "dynamic/id8/pd2.png", "dynamic/id8/pd3.png", "dynamic/id8/pd4.png", "dynamic/id8/pd5.png", "dynamic/id8/pd6.png", "dynamic/id8/pd7.png", "dynamic/id8/pd8.png", "dynamic/id8/pd9.png", "dynamic/id8/pd10.png"],
+        "description":"UX/UI for a dynamic tool that helped the Department of Commerce generate standardized job position descriptions using generative AI and reduce their manual workflow processing time by 96%."
+      },
+      {
+        "id":9,
+        "category":"UX/UI projects",
+        "title": "Operational Planning Toolkit",
+        "image": ["dynamic/id9/bs1.png", "dynamic/id9/bs2.png", "dynamic/id9/bs3.png", "dynamic/id9/bs4.png", "dynamic/id9/bs5.png", "dynamic/id9/bs6.png", "dynamic/id9/bs7.png", "dynamic/id9/bs8.png", "dynamic/id9/bs9.png", "dynamic/id9/bs10.png"],
+        "description":"Interactive gaming simulation toolkit designed to streamline planning and operational workflows."
+      },
+      {
+        "id":10,
+        "category":"UX/UI projects",
+        "title": "Global Business Navigator",
+        "image": ["dynamic/id10/gbn1.png", "dynamic/id10/gbn2.png", "dynamic/id10/gbn3.png", "dynamic/id10/gbn4.png", "dynamic/id10/gbn5.png", "dynamic/id10/gbn6.png", "dynamic/id10/gbn7.png", "dynamic/id10/gbn8.png", "dynamic/id10/gbn9.png", "dynamic/id10/gbn10.png"],
+        "description":"UX/UI for a generative AI research platform for the International Trade Administration that enables users to explore international trade regulations."
+      },
+      {   
+        "id":11,
+        "category":"Illustrations",
+        "title": "Concept Art",
+        "image": ["dynamic/id11/ca1.png", "dynamic/id11/ca2.png", "dynamic/id11/ca3.png", "dynamic/id11/ca4.png", "dynamic/id11/ca5.png", "dynamic/id11/ca6.png", "dynamic/id11/ca7.png", "dynamic/id11/ca8.png"],
+        "description":"Explorative concept art focusing on storytelling, character, and game ideas."
+      },
+      {
+        "id":12,
+        "category":"Illustrations",
+        "title": "Anatomy Studies",
+        "image": ["dynamic/id12/anat1.png", "dynamic/id12/anat2.png", "dynamic/id12/anat3.png", "dynamic/id12/anat5.png", "dynamic/id12/anat6.png"],
+        "description":"Figure drawing and anatomical studies aimed at improving structure, proportion, and gesture."
+      },
+      {
+        "id":13,
+        "category":"Illustrations",
+        "title": "Animal Studies",
+        "image": ["dynamic/id13/anim1.png", "dynamic/id13/anim2.png", "dynamic/id13/anim3.png", "dynamic/id13/anim4.png", "dynamic/id13/anim5.png", "dynamic/id13/anim6.png", "dynamic/id13/anim7.png", "dynamic/id13/anim8.png"],
+        "description":"A series of animal studies exploring movement, anatomy, and form."
+      },
+      {
+        "id":14,
+        "category":"Illustrations",
+        "title": "Miscellaneous Illustrations",
+        "image": ["dynamic/id14/misc1.png", "dynamic/id14/misc2.jpg", "dynamic/id14/misc3.jpg", "dynamic/id14/misc4.jpg"],
+        "description":"A collection of various illustrations exploring style, color, and technique. Plus an illustration of my dog."
+      }
+    ]
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayla Byrnes Beckett Portfolio - Home</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="homePage">
+    <!--nav bar section-->
+    <nav class="navParent">
+        <div class="logo">
+            <a href="home.html">
+            <img src="assets/beckett-white-2.png" alt="Logo of beehive with the letter B inside" width="40">
+            </a>
+            <h1>kayla beckett</h1>
+        </div>
+        
+        <div class="topnav" id="myTopnav">
+            <a href="home.html" class="active">home</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="about.html">about</a>
+            <!-- add hamburger here -->
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+        </div>
+    </nav>
+    
+    <!--main content section-->
+    <div class="homeContent">
+        <div class="spotlight">
+            <img id="spotlightImg" src="assets/pidgeon.png" alt="3D model of stylized pidgeon">
+        <!--
+        model-viewer for the interactive 3D model or <img id="spotlightImg">
+        <model-viewer
+            id="spotlightModel"
+            src="assets/models/model.glb"
+            alt="Interactive 3D model"
+            camera-controls
+            auto-rotate
+            environment-image="neutral"
+            style="width:100%; height:100%; min-height: 300px;">
+        </model-viewer>
+        -->
+        </div>
+        
+        <div class="homeText">
+            <h2 id="roleTitle"><span class="highlight">3D</span> modeler</h2>
+            <p>I’m a designer with a background in 3D modeling, UX/UI, and illustration. I design thoughtful, intuitive experiences with a creative edge.</p>
+            <p>View my portfolio or switch the project spotlight.</p>
+
+ 
+<!--   NOTE: FIGURE OUT WHY PORTOLFIO BUTTON loses height in mid range -->  
+    <!--   NOTE: ACCESSIBILITY -- buttons should use button tag -->   
+            <div class="buttonCon">
+                <a href="portfolio.html" class="portfolioBtn">view portfolio</a>
+                <button id="switchSpotlight" class="spotlightBtn">switch spotlight</button>
+            </div>
+        </div>
+    </div>
+    
+    <!--footer section-->
+    <div class="socials">
+        <div class="email"></div>
+        <div class="insta"></div>
+        <div class="linkedin"></div>
+    </div>
+    
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:kbyrnes@tcd.ie" class="social-link" title="Email">
+        <i class="fas fa-envelope"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/kaylabyrnes/?hl=en" target="_blank" class="social-link" title="Instagram">
+        <i class="fab fa-instagram"></i>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/kayla-byrnes-687996160/" target="_blank" class="social-link" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+        </a>
+    </footer>    
+    
+     <!--
+     Model Viewer for interactive GLB models 
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    -->
+    
+    <!--link to js-->
+    <script src="script.js"></script>
+    
+</body>
+</html> 
